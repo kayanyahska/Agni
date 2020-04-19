@@ -15,7 +15,7 @@ We are proposing a decentralized voting system which ensures:
 The proposed voting protocol utilizes the blockchain to store the cast ballots as it enables a group of people to maintain a public ledger that is owned, updated and maintained by every user but controlled by no one. 
 
 ## Working of proposal
-![flowchart](./image/flowchart.PNG)
+![flowchart](image/flowchart.png)
 ## 1. Voter Registration and Authentication
 We are using the ECDSA (Elliptic Curve Digital Signature Algorithm) which is one of the Elliptic Curve Cryptographic schemes which provides the necessary cryptographic primitives for data authentication, data integrity, and non-repudiation. Authentication using Elliptic Curve Cryptography (ECC) is secure, where all participating devices have a registered key pairs which includes a “private key” and “public key”.
 

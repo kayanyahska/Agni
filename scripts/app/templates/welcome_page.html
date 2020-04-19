@@ -1,0 +1,82 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VoteSafe</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+	<style type="text/css">
+		.verticalStrip 
+		{
+			position:fixed; 
+			top:0; 
+			left:0; 
+			width:400px; 
+			height:100%;
+		}
+
+		.content 
+		{ 
+			padding-left:250px;
+		}
+
+	</style>
+	
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+	<style>
+	.w3-allerta {
+	  font-family: "Allerta Stencil", Sans-serif;
+	}
+</style>
+</head>
+<body >
+
+	<div>
+
+		<div class="verticalStrip" background="sideback.jpg">
+    		
+    	</div>
+		<div style="text-align:center">
+
+			<div class="w3-container w3-black w3-center w3-allerta">
+  			
+  			<h1 class="w3-xxxlarge">A Blockchain Application</p>
+			</div>
+
+			<br/>
+			<br/>
+		</div>
+
+
+		<div style="text-align:center"> 
+		<img src='{%static "logo.jpg"%}' alt="VoteSafe">
+		</div>
+
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<div style="padding-right: 5px;" align="center">
+		  		 <button type="button" onclick="window.location.href = 'http://127.0.0.1:8000/app/generateKeys';" style="width: 150px; height: 50px;" class="btn btn-success"><b>Register</b></button> &nbsp; &nbsp;
+		         <button type="button"  style="width: 150px; height: 50px;" class="btn btn-info"><b>Guide</b></button>
+		</div>
+
+	</div>
+
+	
+	
+	
+
+</body>
+</html>
